@@ -1,0 +1,9 @@
+[19-Oct-2014 17:12:13 America/Chicago] PHP Warning:  require(displaypage.inc.php): failed to open stream: No such file or directory in /home4/tborsa/public_html/travisborsa/index.php on line 2
+[19-Oct-2014 17:12:13 America/Chicago] PHP Warning:  require(displaypage.inc.php): failed to open stream: No such file or directory in /home4/tborsa/public_html/travisborsa/index.php on line 2
+[19-Oct-2014 17:12:13 America/Chicago] PHP Fatal error:  require(): Failed opening required 'displaypage.inc.php' (include_path='.:/opt/php54/lib/php') in /home4/tborsa/public_html/travisborsa/index.php on line 2
+[19-Oct-2014 17:12:31 America/Chicago] PHP Warning:  require(displaypage.inc.php): failed to open stream: No such file or directory in /home4/tborsa/public_html/travisborsa/index.php on line 2
+[19-Oct-2014 17:12:31 America/Chicago] PHP Warning:  require(displaypage.inc.php): failed to open stream: No such file or directory in /home4/tborsa/public_html/travisborsa/index.php on line 2
+[19-Oct-2014 17:12:31 America/Chicago] PHP Fatal error:  require(): Failed opening required 'displaypage.inc.php' (include_path='.:/opt/php54/lib/php') in /home4/tborsa/public_html/travisborsa/index.php on line 2
+[19-Oct-2014 17:12:35 America/Chicago] PHP Warning:  require(displaypage.inc.php): failed to open stream: No such file or directory in /home4/tborsa/public_html/travisborsa/index.php on line 2
+[19-Oct-2014 17:12:35 America/Chicago] PHP Warning:  require(displaypage.inc.php): failed to open stream: No such file or directory in /home4/tborsa/public_html/travisborsa/index.php on line 2
+[19-Oct-2014 17:12:35 America/Chicago] PHP Fatal error:  require(): Failed opening required 'displaypage.inc.php' (include_path='.:/opt/php54/lib/php') in /home4/tborsa/public_html/travisborsa/index.php on line 2

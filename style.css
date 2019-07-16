@@ -1,0 +1,439 @@
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Droid Sans', sans-serif;
+  color: #0d0d0d;
+  background-color: #0d0d0d;
+  margin:0px;
+	padding:0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+#envelope{
+	margin-left:auto;
+	margin-right:auto;
+	max-width:1103px;
+
+}
+#snow{
+	background-image:url("snow.png");
+	position:fixed;
+	margin-left:auto;
+	margin-right:auto;
+	max-width:1800px;
+	top:0px;
+	z-index:0;
+	overflow:hidden;
+	
+}
+#onetree{
+	background-image: url("tree.gif");
+	width:4em;
+	height:6em;
+	float:right;
+	margin-left:70%;
+	overflow: visible;
+	background-size:100%;
+	background-repeat:no-repeat;
+	}
+#tree{
+	background-image: url("treebackground.png");
+	z-index:-1;
+	overflow:hidden;
+	
+}
+#sun{
+	background-image: url("sun.png");
+	position:absolute;
+}
+#city{
+	background-image:url("city.png");
+	position:absolute;
+}
+#white{
+	background-color:white;
+}
+#black{
+	background-color:black;
+	margin-bottom:5em;
+}
+#holder{
+	float:left;
+	position:relative;
+	z-index:-1;
+}
+#name{
+	margin-left:11%;
+	margin-top:10%;
+	font-family: 'Poiret One', cursive;
+}
+#last{
+	margin-left:2.55em;
+	width:0em;
+	position:absolute;
+	top:0.2em;
+}
+#resume{
+	margin-left:3.2em;
+	width:0em;
+	position:absolute;
+	top:1.5em;
+	font-family: 'Droid Sans', sans-serif;
+	font-weight:400;
+	font-size:.8em;
+}
+#bar{
+		width:100%;
+		float:left;
+		height:3em;
+	}
+.schoolbar{
+		width:100%;
+		float:left;
+		
+}
+#workbar{
+		width:100%;
+		float:left;
+}
+#timeline{
+	width:0.5em;
+	height:40em;
+	background-color:#66ddff;
+	border-radius:2em;
+	margin-left:1em;
+	float:left;
+	color:white;
+}
+#workinfo{
+	float:left;
+	padding:0;
+	Width:80%;
+}
+.job {
+	float:left;
+	width:100%;
+	margin-bottom:1.7em;
+	margin-top:0.5em;
+	margin-left:1em;
+	height:4em;
+	color:white;
+	
+}
+.job h2{
+	color:white;
+	margin-top:0;
+	margin-bottom:0;
+}
+#summary{
+	float:left;
+	font-size:0.9em;
+	color:white;
+	margin-right:1em;
+}
+#workinfo p{
+	float:left;
+	margin-top:0.8em;
+	margin-bottom:0em;
+}
+
+#timeline li, #timeline ul{
+	position:relative;
+	left:-0.2em;
+	margin-left:0;
+	padding:0px;
+	margin-bottom:5em;
+}
+#timeline li{
+	width:1.2em;
+	height:1.2em;
+	border-radius:0.6em;
+	background-color:#66ddff;
+	text-align:center;
+}
+#dates{
+	width:4em;
+	float:left;
+	height:20em;
+	margin-left:-1.8em;
+	color:white;
+}
+#dates li{
+	float:right;
+	margin-left:0;
+	margin-bottom:5em;
+}
+
+#portfolio{
+	float:left;
+	width:20%;
+	
+}
+#portinfo h2:hover{
+	color:#66ddff;
+}
+#ppic{
+	float:left;
+	height:5em;
+	Width:5em;
+	margin-bottom:1.2em;
+	border-radius:1em;
+	border-color:#e1e1e1;
+	border-style:solid;
+	border-width:0.2em;
+	background-size:100%;
+	background-repeat:no-repeat;
+}
+#schooltitle{
+	float:right;
+	width:70%;
+	margin-top:0;
+	margin-bottom:0;
+	padding-left:5%;
+}
+#pcss{
+	background-image: url("pcss.gif");
+	overflow: visible;
+	background-size:100%;
+	width:30%;
+	float:left;
+	height:8em;
+	background-repeat:no-repeat;
+}
+#sfu{
+	background-image: url("sfu.gif");
+	overflow: visible;
+	background-size:100%;
+	width:30%;
+	float:left;
+	height:8em;
+	background-repeat:no-repeat;
+}
+.level{
+	width:50%;
+	float:right;
+	margin-top:2em;
+	height:1em;
+	border-radius:2em;
+	background-color:#e1e1e1;
+}
+#indicator{
+	width:50%;
+	float:right;
+	margin-top:-2em;
+	margin-left:45%;
+	margin-bottom:-6em;
+	border-radius:2em;
+
+}
+#ten{
+	float:right;
+}
+#one{
+	float:left;
+}
+#levellevel{
+	height:1em;
+	float:left;
+	border-radius:2em;
+	background-color:#66ddff;
+}
+.container{
+	width:100%;
+	background-size:100%;
+	background-repeat:no-repeat;
+	margin:0px;
+	
+}
+.content{
+	width:100%;
+	background-size:100%;
+	background-repeat:no-repeat;
+	min-height:200px;
+	margin:0px;
+	float:left;
+	padding-left:10%;
+	padding-right:10%;
+	
+}
+.title{
+	float:left;
+	border-width:.1em;
+	border-style:solid;
+	border-color:#66ccff;
+	color:#66ccff;
+	font-weight :400;
+	margin-right:50%
+	margin-top:10%;
+  font-size: 4rem;
+  line-height: 1.2;
+}
+#squares{
+	float:left;
+	margin:0;
+	margin-bottom: 2em;
+}
+#bpic{
+	background-size: cover;
+	float:left;
+	width:20em;
+	height: 20em;
+	margin: 1em;
+}
+@media only screen and (min-width: 768px) {
+  .title{
+  font-size: 6rem;
+    font-weight: 300;
+  }
+  #ppic{
+	height:8em;
+	Width:8em;
+	}
+	#portinfo{
+	
+		margin-bottom:4.7em;
+	}}
+}
+@media only screen and (min-width: 1170px) {
+
+}
+h2{
+	float:left;
+	color:black;
+	font-weight :400;
+  font-size: 3rem;
+  line-height: 1.2;
+}
+@media only screen and (min-width: 768px) {
+  h2{
+  font-size: 4rem;
+    font-weight: 300;
+  }
+  .level{
+	font-size: 2.5rem;
+  }
+  .content{
+	font-size:2rem;
+  }
+}
+@media only screen and (max-width: 450px) {
+	body{
+		font-size:1.5em;
+	
+	}
+	h2{
+		font-size:1.5em;
+	}
+	.content{
+		padding-left:7%;
+		padding-right:7%;
+	}
+	.job{
+		margin-bottom:4.7em;
+		width:
+	}
+	#ppic{
+		margin-bottom:4.2em;
+	}
+	#dates li{
+	float:right;
+	margin-left:0;
+	margin-bottom:8em;
+	}
+	#timeline li{
+		margin-bottom:8em;
+	}
+	#workinfo{
+		width:70%;
+	}
+	#timeline{
+	height:55em;
+	}
+}
+
+.cd-headline {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+@media only screen and (min-width: 768px) {
+  .cd-headline {
+    font-size: 4.4rem;
+    font-weight: 300;
+  }
+}
+@media only screen and (min-width: 1170px) {
+  .cd-headline {
+    font-size: 6rem;
+  }
+}
+
+.cd-words-wrapper {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+}
+.cd-words-wrapper b {
+  display: inline-block;
+  position: absolute;
+  white-space: nowrap;
+  left: 0;
+  top: 0;
+}
+.cd-words-wrapper b.is-visible {
+  position: relative;
+}
+.no-js .cd-words-wrapper b {
+  opacity: 0;
+}
+.no-js .cd-words-wrapper b.is-visible {
+  opacity: 1;
+}
+
+/* -------------------------------- 
+
+xclip 
+
+-------------------------------- */
+.cd-headline.clip span {
+  display: inline-block;
+  padding: .2em 0;
+  height:2.8em;
+}
+.cd-headline.clip .cd-words-wrapper {
+  
+  vertical-align: top;
+}
+.cd-headline.clip .cd-words-wrapper::after {
+  /* line */
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background-color: black;
+}
+.cd-headline.clip b {
+  opacity: 0;
+}
+.cd-headline.clip b.is-visible {
+  opacity: 1;
+}

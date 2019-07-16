@@ -1,0 +1,159 @@
+* {
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}
+body {
+	background-color: #0b1f2c;
+	border: 0px;
+	margin:0px;
+	font-family: "helvetica", Arial, sans-serif;
+	color:#444444;
+}
+p{
+	color: #0b1f2c;
+	font-size: 12px;
+
+}
+a{
+	text-decoration:none;
+}
+.fontmain{
+	color: #0b1f2c;
+	font-size: 12px;
+
+}
+.fonttitle{
+	font-size: 60px;
+	color: #e8e8e8;
+	margin:0px;
+	border:0px;
+
+}
+.fontsubtitle{
+	font-size: 24px;
+	line-height:24px;
+	font-style: bold
+	text-transform: uppercase;
+}
+
+.boxwhite{
+	padding-top:1px;
+	height:70px;
+	width:355px;
+	float: left;
+	text-align:center;
+	background-color: white;
+}
+.boxtail{
+	height:70px;
+	background-color: #00cccc;
+	margin-left:auto;
+	margin-right:auto;
+	max-width: 1170px;	
+}
+.boxspacer{
+	margin-top:550px;
+	margin-left:9.5%;
+	margin-right:9.5%;
+}
+
+.white{
+	color:white;
+}
+.header{
+	position:fixed;
+	top:10px;
+	width:100%;
+	
+}
+#menuul{
+	list-style-type:none;
+	float:left;
+	
+}
+#menuul li{
+	float:left;
+	font-size: 18px;
+	line-height:9px;
+	color: white;
+	width: 100px;
+}
+#headermenu{
+	width: 100%;
+	border:0px;
+	margin-left:5%
+}
+#headermenucolor{
+	height:56px;
+	border:0px;
+	margin-top:2px;
+	width:10px;
+	background-color: #703a99;
+	float:left;
+}
+#headermenufull{
+	border:0px;
+	margin-left:10px;
+	height:60px;
+	background-color:white;
+}
+#headersearch{
+	height:60px;
+	float:right;
+	width:20px;
+}
+#submenuopen{
+	cursor:pointer;
+	margin-top:0px;
+	float:left;
+	height:60px;
+	width:10px;
+	line-height:100px;
+	margin-left:170px;
+	color:#00cccc;
+}
+#headersubmenu{
+	position:absolute;
+	z-index: -1;
+	top:60px;
+	height:40px;
+	margin-left:10%;
+	float:left;
+	background-color: #0b1f2c;
+}
+#headersubcolor{
+	height:38px;
+	width:8px;
+	background-color:#00cccc;
+	margin-left:-8px;
+	float:left;
+}
+.center{
+
+	background-color:white;
+	
+}
+.footer{
+
+}
+#display{
+	overflow: auto;
+	margin-top:40px;
+	height:800px;
+	background:url('http://cdn.freshome.com/wp-content/uploads/2014/01/6-Series-7-Scandinavian-Design.jpg') center no-repeat;
+	background-size:cover;
+}
+#content{
+	margin-top:-150px;
+	margin-left:auto;
+	margin-right:auto;
+	padding: 5%;
+	max-width: 1300px;
+	background-color:white;
+}
+.contentspacer{
+	
+	margin-left:5%;
+	margin-right:5%;
+}
